@@ -17,6 +17,22 @@
     {
       "source": "/proposal/:id/",
       "destination": "/"
+    },
+    {
+      "source": "/pay/complete",
+      "destination": "/"
+    },
+    {
+      "source": "/pay/complete/",
+      "destination": "/"
+    },
+    {
+      "source": "/pay/cancelled",
+      "destination": "/"
+    },
+    {
+      "source": "/pay/cancelled/",
+      "destination": "/"
     }
   ],
   "headers": [
