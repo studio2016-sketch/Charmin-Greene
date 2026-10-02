@@ -33,6 +33,14 @@
     {
       "source": "/pay/cancelled/",
       "destination": "/"
+    },
+    {
+      "source": "/sign/:id",
+      "destination": "/"
+    },
+    {
+      "source": "/sign/:id/",
+      "destination": "/"
     }
   ],
   "headers": [
