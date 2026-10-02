@@ -41,6 +41,14 @@
     {
       "source": "/sign/:id/",
       "destination": "/"
+    },
+    {
+      "source": "/pay/:id",
+      "destination": "/"
+    },
+    {
+      "source": "/pay/:id/",
+      "destination": "/"
     }
   ],
   "headers": [
