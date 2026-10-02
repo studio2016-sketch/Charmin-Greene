@@ -4,19 +4,19 @@
   "rewrites": [
     {
       "source": "/client",
-      "destination": "/index.html"
+      "destination": "/"
     },
     {
       "source": "/client/",
-      "destination": "/index.html"
+      "destination": "/"
     },
     {
       "source": "/proposal/:id",
-      "destination": "/index.html"
+      "destination": "/"
     },
     {
       "source": "/proposal/:id/",
-      "destination": "/index.html"
+      "destination": "/"
     }
   ],
   "headers": [
