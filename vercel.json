@@ -101,5 +101,12 @@
         }
       ]
     }
+  ],
+  "redirects": [
+    {
+      "source": "/book-now",
+      "destination": "/#booking",
+      "permanent": true
+    }
   ]
 }
