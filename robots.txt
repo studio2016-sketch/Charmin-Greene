@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://charmingreene.com/sitemap.xml
+Sitemap: https://www.charmingreene.com/sitemap.xml
