@@ -1,8 +1,16 @@
-# Charmin Greene — Cinematic Editorial Website
+# Charmin Greene — Production Website
 
-Approved direction: cinematic black-and-champagne hero, warm ivory editorial sections, large refined typography, Charmin's six approved photographs, luxury performance experiences and a booking journey.
+Production source for the official CharminGreene.com website.
 
-## Deployment
-Static HTML site; deploy from repository root with Vercel Framework Preset: Other and no build command. Upload `index.html` and the six files under `assets/` from the approved `charmin-greene-cinematic-editorial-v3.zip` package before deployment.
+## Current production architecture
+- Hosted on Vercel from the `main` branch.
+- Canonical domain: `https://www.charmingreene.com`.
+- Apex domain redirects to `www`.
+- Booking inquiries route into the Charmin Greene WGOS workflow.
+- Private proposal, agreement, client-workspace and payment routes are handled through brand-native Vercel endpoints and are excluded from indexing.
+- Public SEO landing pages cover featured saxophonist, horn arranging, private events, weddings and live performances.
+- `/epk` serves the production electronic press kit.
+- `/book-now` redirects to the current booking inquiry experience.
 
-Keep the current CharminGreene.com domain untouched until the preview, mobile layouts and booking workflow have been tested. The prototype booking inquiry is not yet a production submission endpoint.
+## DNS migration
+The domain transfer to Vercel has been initiated. Before Vercel nameservers become authoritative, preserve all Google Workspace mail DNS records (MX, SPF, DKIM, DMARC and any verification records) in the Vercel DNS zone so mail continuity is not interrupted.
