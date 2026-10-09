@@ -61,7 +61,7 @@
         },
         {
           "key": "Referrer-Policy",
-          "value": "no-referrer"
+          "value": "strict-origin-when-cross-origin"
         }
       ]
     },
@@ -106,6 +106,31 @@
     {
       "source": "/book-now",
       "destination": "/#booking",
+      "permanent": true
+    },
+    {
+      "source": "/shows",
+      "destination": "/events",
+      "permanent": true
+    },
+    {
+      "source": "/booking",
+      "destination": "/#booking",
+      "permanent": true
+    },
+    {
+      "source": "/book",
+      "destination": "/#booking",
+      "permanent": true
+    },
+    {
+      "source": "/music",
+      "destination": "/#music",
+      "permanent": true
+    },
+    {
+      "source": "/event/5248906/651902398/supperclub-saturdays-feat-charmin-greene",
+      "destination": "/events",
       "permanent": true
     }
   ]
