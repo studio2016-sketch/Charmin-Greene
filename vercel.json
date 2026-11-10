@@ -132,6 +132,11 @@
       "source": "/event/5248906/651902398/supperclub-saturdays-feat-charmin-greene",
       "destination": "/events",
       "permanent": true
+    },
+    {
+      "source": "/event/5375522/665726162/ladies-r-b-kickback-concert-valentine-s-day-edition-w-h-town-feat-charmin-greene-ginuwine-dru-hill-bobby-v-and-more",
+      "destination": "/events",
+      "permanent": true
     }
   ]
 }
